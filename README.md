@@ -9,3 +9,9 @@
 ### User keyboard shortcuts | combos
 
 [keybindings.json](keybindings.json)
+
+## Typescript lang
+
+### ts configurations
+
+[tsconfig.json](typescript/tsconfig.json)
