@@ -1,4 +1,4 @@
-# My Personal Settongs
+# My Personal Settings
 
 ## VS Code
 
