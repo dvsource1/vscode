@@ -1,9 +1,11 @@
 # My Personal Settongs
 
-### VS Code
+## VS Code
 
-> User Settings
-> [<b>settings.json</b>](settings.json)
+### User Settings
 
-> User keyboard shortcuts | combos
-> [<b>keybindings.json</b>](keybindings.json)
+[settings.json](settings.json)
+
+### User keyboard shortcuts | combos
+
+[keybindings.json](keybindings.json)
