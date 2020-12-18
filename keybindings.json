@@ -1,0 +1,16 @@
+[
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.focus",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.focus",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+alt+v",
+    "command": "toggleVim"
+  }
+]
