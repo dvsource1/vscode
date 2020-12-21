@@ -30,6 +30,12 @@
       "color": "#fff",
       "backgroundColor": "#03a9f4",
       "isWholeLine": false
+    },
+    {
+      "text": "FIX:",
+      "color": "#fff",
+      "backgroundColor": "#ff0f99",
+      "isWholeLine": false
     }
   ],
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -41,6 +47,57 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.tabSize": 2,
-  "window.zoomLevel": 0,
-  "typescript.tsserver.log": "verbose"
+  "window.zoomLevel": 1,
+  "typescript.tsserver.log": "verbose",
+
+  /* Bookmarks */
+  "workbench.colorCustomizations": {
+    "bookmarks.lineBorder": "#00b3ff"
+  },
+
+  /* Vim */
+  "vim.disableExtension": true,
+  "vim.surround": true,
+  "vim.easymotion": true,
+  "vim.useSystemClipboard": true,
+  "vim.ignorecase": true,
+  "vim.leader": "<Space>",
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.duration": 500,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<Up>"],
+      "after": ["<NOP>"]
+    },
+    {
+      "before": ["<Down>"],
+      "after": ["<NOP>"]
+    },
+    {
+      "before": ["<Left>"],
+      "after": ["<NOP>"]
+    },
+    {
+      "before": ["<Right>"],
+      "after": ["<NOP>"]
+    },
+    {
+      "before": [":"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["<leader>", "m"],
+      "commands": ["bookmarks.toggle"]
+    },
+    {
+      "before": ["<leader>", "b"],
+      "commands": ["bookmarks.list"]
+    }
+  ]
 }
