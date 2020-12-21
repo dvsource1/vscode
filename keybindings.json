@@ -12,5 +12,15 @@
   {
     "key": "ctrl+alt+v",
     "command": "toggleVim"
+  },
+  {
+    "key": "tab",
+    "command": "tab",
+    "when": "editorTextFocus && !editorTabMovesFocus"
+  },
+  {
+    "key": "shift+tab",
+    "command": "outdent",
+    "when": "editorTextFocus && !editorTabMovesFocus"
   }
 ]
