@@ -1,4 +1,5 @@
 {
+  "window.zoomLevel": 1,
   "workbench.editor.wrapTabs": true,
 
   "workbench.colorCustomizations": {
@@ -32,6 +33,9 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.tsserver.log": "verbose",
 
+  "git.enableSmartCommit": true,
+
+  /* Extenstion: vim */
   "todohighlight.keywords": [
     {
       "text": "TODO:",
@@ -53,7 +57,7 @@
     }
   ],
 
-  /* Vim */
+  /* Extenstion: vim */
   "vim.disableExtension": true,
   "vim.surround": true,
   "vim.easymotion": true,
@@ -98,8 +102,8 @@
       "commands": ["bookmarks.list"]
     }
   ],
-  "git.enableSmartCommit": true,
 
+  /* Extenstion: material-icon-theme */
   "material-icon-theme.folders.associations": {
     "domains": "Class",
     "repositories": "Database"
@@ -108,15 +112,18 @@
     "docker-compose.db.yml": "Docker"
   },
 
+  /* Extenstion: importSorter */
   "importSorter.generalConfiguration.sortOnBeforeSave": true,
   "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "newLineEachExpressionAfterCountLimitExceptIfOnlyOne",
   "importSorter.importStringConfiguration.tabSize": 2,
 
+  /* Extenstion: importCost */
   "importCost.largePackageColor": "#d44e40",
   "importCost.mediumPackageColor": "#7cc36e",
   "importCost.smallPackageColor": "#7cc36e",
 
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-
-  "window.zoomLevel": 1
+  /* Extenstion: sync */
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "sync.gist": "009e64cc10140271e6b08ecfc0b9224f"
 }
