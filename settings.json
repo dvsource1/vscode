@@ -1,22 +1,36 @@
 {
-  /* Theme */
+  "workbench.editor.wrapTabs": true,
+
+  "workbench.colorCustomizations": {
+    "bookmarks.lineBorder": "#00b3ff"
+  },
+
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.useSplitJSON": true,
 
-  /* Font */
+  "editor.tabSize": 2,
   "editor.fontFamily": "Fira Code",
   "editor.fontSize": 16,
   "editor.fontWeight": "600",
   "editor.fontLigatures": true,
-
-  /* Code Format*/
-  "files.autoSave": "onFocusChange",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeLens": true,
+  "editor.cursorBlinking": "expand",
 
-  /* Terminal */
   "editor.formatOnSave": true,
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+
+  "files.autoSave": "onFocusChange",
+
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.tsserver.log": "verbose",
 
   "todohighlight.keywords": [
     {
@@ -38,22 +52,6 @@
       "isWholeLine": false
     }
   ],
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.settings.useSplitJSON": true,
-  "importSorter.generalConfiguration.sortOnBeforeSave": true,
-  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "newLineEachExpressionAfterCountLimitExceptIfOnlyOne",
-  "importSorter.importStringConfiguration.tabSize": 2,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "editor.tabSize": 2,
-  "window.zoomLevel": 1,
-  "typescript.tsserver.log": "verbose",
-
-  /* Bookmarks */
-  "workbench.colorCustomizations": {
-    "bookmarks.lineBorder": "#00b3ff"
-  },
 
   /* Vim */
   "vim.disableExtension": true,
@@ -99,5 +97,26 @@
       "before": ["<leader>", "b"],
       "commands": ["bookmarks.list"]
     }
-  ]
+  ],
+  "git.enableSmartCommit": true,
+
+  "material-icon-theme.folders.associations": {
+    "domains": "Class",
+    "repositories": "Database"
+  },
+  "material-icon-theme.files.associations": {
+    "docker-compose.db.yml": "Docker"
+  },
+
+  "importSorter.generalConfiguration.sortOnBeforeSave": true,
+  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "newLineEachExpressionAfterCountLimitExceptIfOnlyOne",
+  "importSorter.importStringConfiguration.tabSize": 2,
+
+  "importCost.largePackageColor": "#d44e40",
+  "importCost.mediumPackageColor": "#7cc36e",
+  "importCost.smallPackageColor": "#7cc36e",
+
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "window.zoomLevel": 1
 }
