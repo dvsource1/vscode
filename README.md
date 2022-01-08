@@ -10,7 +10,11 @@
 
 [keybindings.json](keybindings.json)
 
-### Extnsions list
+### Extensions
+
+[extensions.json](extensions.json)
+
+#### Install
 
 [extensions-list.txt](extensions-list.txt)
 
